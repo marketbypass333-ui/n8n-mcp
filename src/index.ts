@@ -10,6 +10,14 @@ export { SingleSessionHTTPServer } from './http-server-single-session';
 export { ConsoleManager } from './utils/console-manager';
 export { N8NDocumentationMCPServer } from './mcp/server';
 
+// Advanced features exports
+export {
+  initializeAdvancedFeatures,
+  analyzeWorkflowEnhanced,
+  startRealTimeMonitoring,
+  getSystemHealth
+} from './advanced-features';
+
 // Type exports for multi-tenant and library usage
 export type {
   InstanceContext
